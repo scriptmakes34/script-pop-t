@@ -2,7 +2,7 @@
 Dont change or u can get banned !!! not my fault if no ban
 --]]
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
-local Window  = Library.CreateLib("Script Made By Ibrahim_10701", "BloodTheme")
+local Window  = Library.CreateLib("Script Made By senspotko52sm", "DarkTheme")
 local Tab     = Window:NewTab("Scripts")
 local Section = Tab:NewSection("Buy NFT (With Game Money!)")
 Section:NewButton("Buy Ben", "Buy Ben", function()
@@ -264,14 +264,14 @@ local args = {
 
     game:GetService("ReplicatedStorage").RemoteEvents.BuyItemCash:FireServer(unpack(args))
 end)
-Section:NewButton("Dupe Slappy Hands", "Buy item dupe cash", function()
+Section:NewButton("Dupe Rock", "Buy item dupe cash", function()
 local args = {
-        [1] = "Slappy Hands"
+        [1] = "Rock"
     }
 
     game:GetService("ReplicatedStorage").RemoteEvents.Sell:FireServer(unpack(args))
         local args = {
-        [1] = "Slappy Hands"
+        [1] = "Rock"
     }
 
     game:GetService("ReplicatedStorage").RemoteEvents.BuyItemCash:FireServer(unpack(args))
